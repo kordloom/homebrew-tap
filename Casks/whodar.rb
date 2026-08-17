@@ -4,22 +4,22 @@ cask "whodar" do
 
   on_macos do
     on_intel do
-      sha256 "447b1b83da22b3143945287643a9ff6c1742f914cc2b47971fda6cf31715764e"
+      sha256 "356e3ae111917c04954519d95d17fd36922bd7ce367a03a871df90546c99b55c"
       url "https://github.com/kordloom/whodar/releases/download/v#{version}/whodar_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c8a96cd7083dadb24a741668de792b1ee356218b4663205765125052ece93e69"
+      sha256 "7f531a02d9eacddaaf498ba393e9be6d74a70a3af9105bb11768f32400a748e0"
       url "https://github.com/kordloom/whodar/releases/download/v#{version}/whodar_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "e7f0498e1a95bd893eedb93b5acea352f24407f4afebe4f14412e88f2c1c1d2d"
+      sha256 "5b09f017a7aa05cc0746251489a21963d3caf2ae05010c8f78880f2aeebd9c44"
       url "https://github.com/kordloom/whodar/releases/download/v#{version}/whodar_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a2a55f33b85ecfa60d46382ec91de1b246dc8f2f1793c8cc2806ad6077fc13a0"
+      sha256 "81c42c003954499f2596c0af396b42ca93cfd75605ff9a39bba55564f43d4bc2"
       url "https://github.com/kordloom/whodar/releases/download/v#{version}/whodar_#{version}_linux_arm64.tar.gz"
     end
   end
