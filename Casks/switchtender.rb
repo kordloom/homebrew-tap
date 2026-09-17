@@ -19,7 +19,7 @@ cask "switchtender" do
   end
 
   name "switchtender"
-  desc "One gate for every change to production, and proof it held: one binary control plane for Ansible, Terraform, OpenTofu, Bash, PowerShell, Python, and Go."
+  desc "Gate every change, watch every host, prove every run: one binary control plane for Ansible, Terraform, OpenTofu, Bash, PowerShell, Python, and Go."
   homepage "https://switchtender.com"
 
   livecheck do
