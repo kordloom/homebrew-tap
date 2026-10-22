@@ -1,24 +1,24 @@
 cask "loomseal" do
-  version "1.9.0"
+  version "1.10.0"
 
   on_macos do
     on_intel do
-      sha256 "7a4b4239840498f7d4ce5ce549d397c62def184af22496c6bcb749bd10e8e75d"
+      sha256 "328e7c5a835bb857ba34ef95467257fcbd17bf9372ccbacf75da74642df7dfe3"
       url "https://github.com/kordloom/loomseal/releases/download/v#{version}/loomseal_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9c9fa10485e04cc62a8f804c5c2cda290160ed7256a15ab18fe945b043f684dd"
+      sha256 "051957391449057c57b2f032d68b0eeb568a594425d203ea748fdbbd93ea6bd1"
       url "https://github.com/kordloom/loomseal/releases/download/v#{version}/loomseal_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "975b93a69354510c952720c8a6b6344b19f692849b19214d01c319efea7d65c0"
+      sha256 "c82656ff6a3dac69a48106029e0c4979264aacde89c96a2e211c298fcaa589c8"
       url "https://github.com/kordloom/loomseal/releases/download/v#{version}/loomseal_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4476f1fa305f783b6f40edb6a7b441e83af1ee0cf352cd38cfd3bb1035be13ef"
+      sha256 "7c017b9fa3b148c791a70da9050404f48f9dcc242cb781eda0bdbf223776ad40"
       url "https://github.com/kordloom/loomseal/releases/download/v#{version}/loomseal_#{version}_linux_arm64.tar.gz"
     end
   end
